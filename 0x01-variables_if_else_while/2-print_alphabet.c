@@ -6,7 +6,7 @@
  *
  * print the alphabet in lowercase
  *
- * return: Always 0 (success)
+ * return: Always 0 (Success)
  */
 int main(void)
 {
