@@ -12,6 +12,8 @@ int main(void)
 {
 	int ch;
 
+	/* print lowercase letters */
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 
 	{
@@ -20,6 +22,8 @@ int main(void)
 	}
 
 	putchar('\n');
+
+	/* print uppercase letters */
 
 	for (ch = 'A'; ch <= 'z'; ch++)
 
