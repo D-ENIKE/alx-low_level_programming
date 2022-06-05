@@ -10,27 +10,25 @@
  */
 int main(void)
 {
-	int ch;
+	char lower = 'a';
+	char upper = 'A';
 
-	/* print lowercase letters */
-
-	for (ch = 'a'; ch <= 'z'; ch++)
+	while (lower <= 'z')
 
 	{
-		putchar(ch);
+		putchar(lower);
+		lower++;
 
 	}
 
-	putchar('\n');
-
-	/* print uppercase letters */
-
-	for (ch = 'A'; ch <= 'z'; ch++)
+	while (upper <= 'Z')
 
 	{
-		putchar(ch);
-
+		putchar(upper);
+		upper++;
 	}
+
+
 	putchar('\n');
 
 	return (0);
