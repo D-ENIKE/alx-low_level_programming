@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	int sum_of evens + 0;
+	int sum_of evens = 0;
 	int a;
 	int b;
 	int sum = 1;
