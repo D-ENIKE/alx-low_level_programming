@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * main - print first 50 fibonnacci numbers
+ * main - print first 50 fibonacci numbers
  * Return: 0
  */
 
