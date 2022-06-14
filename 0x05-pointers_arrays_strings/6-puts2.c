@@ -25,7 +25,7 @@ int _strlen(char *s)
  * @str: string to print
  */
 
-void put2(char *str)
+void puts2(char *str)
 {
 	int i;
 
