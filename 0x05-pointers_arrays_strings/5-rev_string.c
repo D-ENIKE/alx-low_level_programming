@@ -25,13 +25,13 @@ int _strlen(char *s)
  * @s: string to reverse
  */
 
-void rev _string(char *s);
+void rev_string(char *s)
 {
-	int i = 0;
-	int j = (_strlen(s) - 1);
-	char tmp;
+	int i = 0;
+	int j = (_strlen(s) - 1);
+	char tmp;
 
-	while (i < j)
+	while (i < j)
 	{
 		tmp = s[i];
 		s[i] = s[j];
