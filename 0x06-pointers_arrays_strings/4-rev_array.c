@@ -6,7 +6,7 @@
  * @n: number of elements in array
  */
 
-void reverse_arrays(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int tmp, beg = 0;
 	int end = n - 1;
