@@ -1,20 +1,32 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
- * malloc_checked - array for prints a string
- * @b: number of memory
- * Return: void
+ * create_array - create array of chars and initialize with a specific char
+ * @size: size of array
+ * @c: fill array values with this char
+ * Return: pointer to array
  */
 
-void *malloc_checked(unsigned int b)
+char *create_array(unsigned int size, char c)
 {
-	void *p;
+	char *arr;
+	int i = 0;
 
-	p = malloc(b);
-	if (p == NULL)
+	if (size <= 0) /* validate size input */
+		return (NULL);
+	arr = malloc(sizeof(char) * size);
+
+	if (arr == NULL)
+		return (NULL);
+
+	while (i < (int)size)
 	{
-		exit(98);
+		*(arr + i) = c;
+		i++;
 	}
+	*(arr + i) = '\0';
 
-	return (p);
+	return (arr);
 }
